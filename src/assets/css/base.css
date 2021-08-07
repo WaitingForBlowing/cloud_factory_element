@@ -1,0 +1,91 @@
+@import "./normalize.css";
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+    min-width: 1850px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.el-table {
+    margin-top: 15px;
+}
+
+.el-pagination {
+    margin-top: 15px;
+}
+
+.el-select {
+    width: 100%;
+}
+
+.el-menu {
+    border-right: none !important;
+}
+
+.el-menu-item:hover {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+.el-submenu__title:hover {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+.el-submenu__title {
+    font-size: 15px !important;
+}
+
+.el-submenu__title:hover i {
+    color: #fff !important;
+}
+
+.el-menu-item.is-active {
+    background: #f5222d !important;
+    color: #fff !important;
+}
+
+.el-submenu__title.is-active {
+    background: #f5222d !important;
+    color: #fff !important;
+}
+
+.el-submenu__title:hover .el-submenu__icon-arrow {
+    color: #fff;
+}
+
+.el-aside {
+    transition: width 0.25s;
+    -webkit-transition: width 0.25s;
+    -moz-transition: width 0.25s;
+    -o-transition: width 0.25s;
+}
+
+.el-main {
+    padding: 0!important;
+}
+
+.el-button,
+.el-input,
+.el-input__inner {
+    font-size: 14px!important;
+    border-radius: 0!important;
+}
+
+.el-tag {
+    color: #fff!important;
+    border: rgba(255,255,255,0) !important;
+}
